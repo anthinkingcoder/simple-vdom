@@ -14,6 +14,7 @@ let virtualDom2 =createNode('ul', { class: 'list-group',width:'30px' }, [
   createNode('li', { class: 'item' }, [createTextNode('5')],'E'),
   createNode('li', { class: 'item' }, [createTextNode('4')],'C'),
   createNode('li', { class: 'item' }, [createTextNode('6')],'F'),
+  createNode('li', { class: 'item' }, [createTextNode('4')],'D'),
 ], 'root')
 
 setTimeout(() => {
